@@ -1,0 +1,7 @@
+const ADMIN_JWT_PASSWORD = process.env.ADMIN_JWT_PASSWORD
+const USER_JWT_PASSWORD = process.env.USER_JWT_PASSWORD
+
+module.exports = {
+    ADMIN_JWT_PASSWORD,
+    USER_JWT_PASSWORD
+}
